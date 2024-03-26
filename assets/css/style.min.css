@@ -949,8 +949,6 @@ input:disabled {
   border: 0;
 }
 
-
-
 @media(min-width: 577px) {
   .bb-slider-bullets {
     position: absolute;
@@ -1023,6 +1021,13 @@ input:disabled {
     margin-bottom: 0;
   }
 
+  .bb-calculator-section{
+    padding: 50px 0 20px 0;
+  }
+
+  .bb-section-title{
+    font-size: 34px;
+  }
 }
 
 
@@ -1238,7 +1243,7 @@ input:disabled {
 .bb-blog-listing-wrap {
   gap: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .bb-blog-img-wrap {
@@ -1345,5 +1350,13 @@ input:disabled {
 
   .bb-search-input {
     width: 100%;
+  }
+
+  .bb-blog-section{
+    padding: 60px 0;
+  }
+
+  .bb-mt-80 {
+    margin-top: 40px;
   }
 }
