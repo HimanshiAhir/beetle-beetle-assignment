@@ -879,6 +879,7 @@ input:disabled {
 .bb-input-range {
   width: 100%;
   -webkit-appearance: none;
+  height: 8px;
 }
 
 .bb-input-range-bullet {
